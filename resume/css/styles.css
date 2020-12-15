@@ -73,6 +73,39 @@ body {
   outline: 0 !important;
 }
 
+/* Skill bar */
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill-container {
+  width: 60%; /* Full width */
+  height: 30%;
+  padding-top: 0%;
+  background-color: #ddd; /* Grey background */
+  margin-bottom: 15px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  height: 25px;
+  color: white; /* White text color */
+  margin: 0px;
+}
+
+.python {width: 90%; background-color: #794c74;}
+.sql {width: 80%; background-color: #c56183;}
+.r  {width: 65%; background-color: #fadcaa;}
+.html  {width: 65%; background-color: #fadcaa;}
+.java {width: 60%; background-color: #b2deec;}
+
+p.skill {
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-top: 12px;
+}
+
 
 
 hr {

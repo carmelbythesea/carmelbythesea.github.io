@@ -5434,6 +5434,12 @@ a.close.disabled {
   overflow-y: auto;
 }
 
+iframe {
+  width: 100%;
+
+}
+
+
 .modal-dialog-centered {
   display: flex;
   align-items: center;
